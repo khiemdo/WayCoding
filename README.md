@@ -21,6 +21,18 @@ Introduce Way about git, vscode
 
 use mardown to summary school fee for 4 years. create a new file SchoolFee.md
 
+```bash
+cd $PROJECT_DIR
+git checkout -b waydev
+git checkout -b dkdev
+git pull origin dkdev
+git checkout waydev
+git merge waydev
+git add -A
+git commit -m "new changes"
+git push origin waydev
+```
+
 ### Reference
 
 - https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet

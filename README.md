@@ -23,6 +23,9 @@ use mardown to summary school fee for 4 years. create a new file SchoolFee.md
 
 ```bash
 cd $PROJECT_DIR
+
+git config --global user.name "Mona Lisa"
+git config --global user.email email@example.com
 # create new branch
 git checkout -b waydev
 git checkout -b dkdev

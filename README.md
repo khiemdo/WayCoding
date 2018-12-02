@@ -23,13 +23,21 @@ use mardown to summary school fee for 4 years. create a new file SchoolFee.md
 
 ```bash
 cd $PROJECT_DIR
+# create new branch
 git checkout -b waydev
 git checkout -b dkdev
+# sync new content from server
 git pull origin dkdev
+# change branch
 git checkout waydev
-git merge waydev
+# merge the change
+git merge dkdev
+
+# stage your own changes
 git add -A
+# commit changes
 git commit -m "new changes"
+# upload change to server
 git push origin waydev
 ```
 
